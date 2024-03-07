@@ -1,0 +1,40 @@
+.watchtext{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 3%;
+}
+
+.watchtext p{
+    font-size: 24px;
+    padding: 20px 0px;
+    font-weight: 400;
+}
+
+.watchVideo{
+    width: 50%;
+}
+
+.watchImg {
+    position: relative;
+}
+
+.watchVideo video {
+    position: absolute;
+    z-index: -1;
+    top: -19%;
+    left: 17%;
+    height: 100%;
+    width: 100%;
+    max-width: 63%;
+}
+
+.watchVideo img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,54 @@
+.heroButtontext{
+    margin: 24px 0 0;
+}
+
+.heroButtontext p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.heroButton {
+    text-align: left;
+    position: relative;
+    margin: 16px auto 0;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heroButton input{
+    padding: 10px;
+    background-color: rgba(24, 19, 19, 0.5);
+    border-radius: 5px;
+    border: 1px solid rgba(136, 131, 131, 0.8);
+    width: 60%;
+    color: #fff;
+    line-height: 40px;
+}
+
+.arrowBu{
+    width: 30%;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+
+.arrowBu button{
+    padding: 10px;
+    background: rgb(229, 9, 20);
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,70 @@
+.frequently
+{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.frequently .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.frequently .item .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(45, 45, 45);
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.frequently .item .question{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    cursor: pointer;
+    
+}
+
+.item .answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+    padding: 5px 30px;
+}
+
+.item .answer svg{
+    font-size: 30px;
+}
+
+.item .answer.show{
+    height: auto;
+    max-height: 99999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.reverse{
+    transform: rotate(45deg);
+}
+
+.heroBanner_Freq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    margin: 50px 0px;
+}
+
+.frequently .item .wrapper .question:hover{
+    background-color: rgb(71, 71, 71);
+}
+

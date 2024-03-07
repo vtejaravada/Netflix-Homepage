@@ -1,0 +1,39 @@
+.enjoytext{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 3%;
+}
+
+.enjoytext p{
+    font-size: 24px;
+    padding: 20px 0px;
+    font-weight: 400;
+}
+
+.enjoyVideo{
+    width: 50%;
+}
+
+.enjoyImg {
+    position: relative;
+}
+
+.enjoyVideo video {
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    left: 13%;
+    height: 100%;
+    width: 100%;
+    max-width: 75%;
+}
+
+.enjoyVideo img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
