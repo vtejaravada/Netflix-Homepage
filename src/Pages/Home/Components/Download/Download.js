@@ -19,7 +19,7 @@ const Download = () => {
                           <img src={watchGif} alt="" />
                       </div>
 
-                      <img src={watchimg} alt="" />
+                      <img src={watchimg} alt="" className='bgImg' />
                       
                   </div>
               </div>

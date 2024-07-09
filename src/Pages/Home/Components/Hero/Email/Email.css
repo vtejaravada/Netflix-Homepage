@@ -1,11 +1,12 @@
-.heroButtontext{
-    margin: 24px 0 0;
+.heroButtontext {
+    margin: 24px 0px 24px 0px;
 }
 
 .heroButtontext p{
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
+    text-align: center;
 }
 
 .heroButton {

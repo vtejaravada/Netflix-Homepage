@@ -20,6 +20,14 @@
     font-weight: 400;
 }
 
-.createVideo{
-    width: 100%;
-}
+@media(max-width:1100px)
+{  
+    .createText{
+      width: 90%;
+      margin: auto;
+    }
+  
+    .createImg{
+      width: 100%;
+    }
+  }

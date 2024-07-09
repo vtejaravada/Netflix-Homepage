@@ -1,0 +1,90 @@
+@media(max-width:1024px){
+    .headTop {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_item_one li {
+        text-decoration: underline;
+        padding: 10px 0px;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 15px;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width:768px){
+    p, a, h2{
+        text-align: center !important;
+    }
+
+    h2{
+        font-size: 40px !important;
+    }
+    .heroButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .herotext {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+
+    .arrowBu {
+        width: 80%;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+@media (max-width:500px)
+{
+    .signin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 20px;
+    }
+
+    .heroBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+        border-bottom: 8px solid #787070;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .herotext {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 275px;
+    }
+
+    .logo h2 {
+        color: rgb(255, 9, 20);
+        font-size: 30px !important;
+        text-transform: uppercase;
+    }
+}
+
+@media(max-width:375px){
+    
+
+    
+}

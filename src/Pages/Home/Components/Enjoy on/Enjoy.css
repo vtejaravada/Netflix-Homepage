@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    margin: 0 3%;
+    margin: auto;
 }
 
 .enjoytext p{
@@ -37,3 +37,15 @@
     justify-content: center;
     align-items: center;
 }
+
+@media(max-width:1100px)
+{  
+    .enjoytext{
+      width: 90%;
+      margin: auto;
+    }
+  
+    .enjoyVideo{
+      width: 100%;
+    }
+  }

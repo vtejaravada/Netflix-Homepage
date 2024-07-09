@@ -1,54 +1,123 @@
-
-
-.downloadposImg{
-    width: 100%;
+.downloadposImg {
+    width: 50%;
 }
 
 .downloadImg {
     position: relative;
 }
 
+.bgImg {
+    width: 100%;
+}
+
 .downloadImg .watchTop {
     position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #000000;
     padding: 10px;
     border: 3px solid #787070;
     border-radius: 20px;
-    gap: 20px;
-    left: 125px;
-    width: 50%;
-    bottom: 50px;
+    left: 148px;
+    bottom: 55px;
+    width: 60%;
 }
 
-.downloadImg .watchTop img{
+.downloadImg .watchTop img {
     height: 80px;
 }
 
-.downloadImg .watchTop p{
+.downloadImg .watchTop p {
     text-transform: capitalize;
     font-size: 16px;
     font-weight: 400;
 }
 
-.downloadImg .watchTop p span{
+.downloadImg .watchTop p span {
     color: blue;
     font-size: 14px;
 }
 
-.downloadText{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    margin: 0 20px;
+.downloadText {
+    width: 45%;
+    margin: auto;
+
 }
 
-.downloadText p{
+.downloadText p {
     font-size: 24px;
     padding: 20px 0px;
     font-weight: 400;
+}
+
+@media(max-width:1500px) {
+    .downloadImg .watchTop {
+        left: 115px;
+        bottom: 40px;
+    }
+}
+
+@media(max-width:1300px) {
+    .downloadImg .watchTop {
+        left: 100px;
+        bottom: 40px;
+    }
+}
+
+@media(max-width:1100px) {
+    .downloadposImg {
+        width: 100%;
+    }
+
+    .downloadText {
+        width: 90%;
+        margin: auto;
+    }
+
+    .downloadImg .watchTop img {
+        height: 120px;
+    }
+
+    .downloadImg .watchTop {
+        left: 150px;
+        bottom: 60px;
+    }
+}
+
+@media(max-width:768px) {
+    .downloadImg .watchTop {
+        left: 120px;
+        bottom: 60px;
+    }
+
+    .downloadImg .watchTop img {
+        height: 80px;
+    }
+}
+
+@media(max-width:650px){
+    .downloadImg .watchTop {
+        left: 100px;
+        bottom: 40px;
+    }
+}
+
+@media(max-width:550px){
+    .downloadImg .watchTop img {
+        height: 50px;
+    }
+    .downloadImg .watchTop {
+        
+        left: 86px;
+        bottom: 40px;
+    }
+}
+
+@media(max-width:425px) {
+    .downloadImg .watchTop {
+        left: 35px;
+        bottom: 30px;
+        width: 80%;
+    }
 }
